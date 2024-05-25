@@ -1,0 +1,45 @@
+/* ProductItem.css */
+.product-item {
+    border: 1px solid #141313;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #afee05;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.product-item h2 {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+.product-item p {
+    margin-bottom: 30px;
+}
+
+.product-item button {
+    background-color: #28a745;
+    /* Green background */
+    color: #fff;
+    /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-item button:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+}
+
+.product-item button.remove {
+    background-color: #e91026;
+    /* Red background */
+}
+
+.product-item button.remove:hover {
+    background-color: #c82333;
+    /* Darker red on hover */
+}
